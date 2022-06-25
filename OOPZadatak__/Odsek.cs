@@ -9,6 +9,12 @@ namespace OOPZadatak__
 {
     public class Odsek
     {
+        public Odsek(int id, string naziv)
+        {
+            Id = id;
+            Naziv = naziv;
+        }
+    
         [Key]
         public int Id { get; set; }
         public string Naziv { get; set; }

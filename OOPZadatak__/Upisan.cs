@@ -10,6 +10,12 @@ namespace OOPZadatak__
 {
     public class Upisan
     {
+        public Upisan( int studentID,int odsekID,int godinaStudije)
+        {
+            StudentID = studentID;
+            OdsekID = odsekID;
+            GodinaStudije = godinaStudije;
+        }
         [Key]
         [ForeignKey("Student")]
         public int StudentID { get; set; }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\UROS MASINA\\source\\repos\\OOProjekat\\OOPZadatak__\\OOPZadatak__\\OOPZadatak__.csproj": {}
+    "D:\\dev\\OOPProjekat\\OOPZadatak__\\OOPZadatak__.csproj": {}
   },
   "projects": {
-    "C:\\Users\\UROS MASINA\\source\\repos\\OOProjekat\\OOPZadatak__\\OOPZadatak__\\OOPZadatak__.csproj": {
+    "D:\\dev\\OOPProjekat\\OOPZadatak__\\OOPZadatak__.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\UROS MASINA\\source\\repos\\OOProjekat\\OOPZadatak__\\OOPZadatak__\\OOPZadatak__.csproj",
+        "projectUniqueName": "D:\\dev\\OOPProjekat\\OOPZadatak__\\OOPZadatak__.csproj",
         "projectName": "OOPZadatak__",
-        "projectPath": "C:\\Users\\UROS MASINA\\source\\repos\\OOProjekat\\OOPZadatak__\\OOPZadatak__\\OOPZadatak__.csproj",
-        "packagesPath": "C:\\Users\\UROS MASINA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\UROS MASINA\\source\\repos\\OOProjekat\\OOPZadatak__\\OOPZadatak__\\obj\\",
+        "projectPath": "D:\\dev\\OOPProjekat\\OOPZadatak__\\OOPZadatak__.csproj",
+        "packagesPath": "C:\\Users\\Sinisa\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\OOPProjekat\\OOPZadatak__\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\UROS MASINA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sinisa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

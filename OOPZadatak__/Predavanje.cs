@@ -10,6 +10,14 @@ namespace OOPZadatak__
 {
     public class Predavanje
     {
+        public Predavanje(int predavacID, int studentID, int predmetID, bool glavniPredavac)
+        {
+            PredavacID = predavacID;
+            StudentID = studentID;
+            PredmetID = predmetID;
+            GlavniPredavac = glavniPredavac;
+        }
+    
         [Key]
         [ForeignKey("Predavac")]
         public int PredavacID { get; set; }

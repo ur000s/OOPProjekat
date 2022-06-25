@@ -9,6 +9,12 @@ namespace OOPZadatak__
 {
     public class Predmet
     {
+        public Predmet(int id, string ime)
+        {
+            Id = id;
+            Ime = ime;
+        }
+    
         [Key]
         public int Id { get; set; }
         public string Ime { get; set; }

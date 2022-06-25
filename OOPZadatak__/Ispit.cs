@@ -10,6 +10,15 @@ namespace OOPZadatak__
 {
     public class Ispit
     {
+        public Ispit(int studentID, int predavacID, int predmetID, DateOnly datumPolaganja, int ocena)
+        {
+            StudentID = studentID;
+            PredavacID = predavacID;
+            PredmetID = predmetID;
+            DatumPolaganja = datumPolaganja;
+            Ocena = ocena;
+        }
+    
         [Key]
         [ForeignKey("Student")]
         public int StudentID { get; set; }

@@ -9,6 +9,13 @@ namespace OOPZadatak__
 {
     public class Student
     {
+        public Student(int id, string ime, string prezime)
+        {
+            Id = id;
+            Ime = ime;
+            Prezime = prezime;
+        }
+    
         [Key]
         public int Id { get; set; } //indeks?
         public string Ime { get; set; }

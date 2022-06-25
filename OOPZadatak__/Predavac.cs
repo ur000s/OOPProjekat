@@ -7,8 +7,17 @@ using System.Threading.Tasks;
 
 namespace OOPZadatak__
 {
+    
     public class Predavac
     {
+        public Predavac(int id, string ime, string prezime, string zvanje)
+        {
+            Id = id;
+            Ime = ime;
+            Prezime = prezime;
+            Zvanje = zvanje;
+        }
+    
         [Key]
         public int Id { get; set; }
         public string Ime { get; set; }

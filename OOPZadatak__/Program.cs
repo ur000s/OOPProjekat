@@ -6,10 +6,7 @@ namespace OOPZadatak__
     {
         static void Main(string[] args)
         {
-            using (var db = new Baza()) 
-            {
-                Console.WriteLine(db.Database.CanConnect());
-            }
+            
 
         }
     }
